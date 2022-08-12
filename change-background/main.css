@@ -1,5 +1,33 @@
-* {
+body {
   margin: 0;
   padding: 0;
   background-color: #e6ecef;
+}
+
+h1,
+h2 {
+  color: #0067a5;
+  text-align: center;
+}
+
+.background {
+    padding: 1%;
+    margin-top: 10%;
+    overflow: hidden;
+    background-color: #6da9d2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.colors {
+  width: 3%;
+  height: 40px;
+  margin: 2%;
+  margin-top: 5%;
+  border-radius: 50%;
+  border: solid 2px #e6ecef;
+  background-color: #00a693;
 }
