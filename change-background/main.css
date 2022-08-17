@@ -1,20 +1,21 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #e6ecef;
+  background-color: #0067a5;
 }
 
 h1,
 h2 {
-  color: #0067a5;
+  color: #e6ecef;
   text-align: center;
+  text-shadow: 2px 1px 0 #000;
 }
 
 .background {
-    padding: 1%;
-    margin-top: 10%;
-    overflow: hidden;
-    background-color: #6da9d2;
+  padding: 1%;
+  margin-top: 10%;
+  overflow: hidden;
+  background-color: #6da9d2;
 }
 
 .container {
@@ -28,6 +29,11 @@ h2 {
   margin: 2%;
   margin-top: 5%;
   border-radius: 50%;
-  border: solid 2px #e6ecef;
+  border: solid 5px #e6ecef;
   background-color: #00a693;
+}
+
+.colors:hover {
+  cursor: pointer;
+  background-color: #0067a5;
 }
